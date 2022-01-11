@@ -1,1 +1,1 @@
-""" init {{ app_name }} views """
+""" init {{ camel_case_app_name }} views """
