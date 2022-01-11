@@ -1,4 +1,4 @@
-""" Signatures URLs. """
+""" {{ camel_case_app_name }} URLs. """
 
 # Django
 from django.urls import path
@@ -9,7 +9,7 @@ from django.urls import path
 urlpatterns = [
     # API {{ camel_case_app_name }}
     path(
-        "dashboard/api/",
+        "{{ app_name }}/api/",
         include(
             ("your_project_name.{{ app_name }}.api.urls", "{{ app_name }}-api"), namespace="{{ app_name }}-api"
         ),
