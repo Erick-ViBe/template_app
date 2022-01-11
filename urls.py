@@ -11,7 +11,7 @@ urlpatterns = [
     path(
         "dashboard/api/",
         include(
-            ("{{ project_name }}.{{ app_name }}.api.urls", "{{ app_name }}-api"), namespace="{{ app_name }}-api"
+            ("your_project_name.{{ app_name }}.api.urls", "{{ app_name }}-api"), namespace="{{ app_name }}-api"
         ),
     ),
 ]
