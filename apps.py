@@ -1,4 +1,4 @@
-"""Signatures app."""
+"""{{ camel_case_app_name }} app."""
 
 # Django
 from django.apps import AppConfig
